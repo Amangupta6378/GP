@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: roboto;
+
+}
+ul li a{
+    color: black;
+    font-weight: 700;
+    font-size: large;
+}
+.nav-link.active:hover{
+    color: rgb(254,195,81);
+}
+.nav-item{
+    padding: 10px;
+}
+.head1{
+    color: rgb(223, 223, 223);
+}
+.head1 h1{
+    /* font-size: 70px; */
+    
+}
+.head21{
+    border: 1px solid rgb(230, 228, 228);
+}
+.head21:hover{
+    border: 1px solid rgb(254,195,81);
+    color: rgb(254,195,81);
+    transform:scale(1.1) ;
+    transition: 0.5s;
+    /* transform: scaleY(1.1); */
+
+    
+}
+.head{
+    background-image: url(https://i.pinimg.com/564x/90/80/60/90806070087882cb511b0a0cf13e5089.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(40, 40, 40);
+    background-blend-mode: multiply;
+}
+.head4 img{
+    width: 100%;
+    filter: grayscale(5);
+    opacity: 0.5;
+}
+.head4 img:hover{
+    filter: none;
+    opacity: 1;
+}
+.card{
+    transition: 0.2s;
+}
+.card:hover{
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.082);
+    transform: scale(1.05);
+
+}
+.head7{
+    background-image: url(https://i.pinimg.com/564x/90/80/60/90806070087882cb511b0a0cf13e5089.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(40, 40, 40);
+    background-blend-mode: multiply;
+    color: white;
+}
+
+p{
+    color: gray;
+}
+.head7  p{
+    color: white;
+}
+.head1  p{
+    color: white;
+}
+.carousel{
+    height: 60vh;
+    background-image: url(https://i.pinimg.com/564x/90/80/60/90806070087882cb511b0a0cf13e5089.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(40, 40, 40);
+    background-blend-mode: multiply;
+    background-position: center;
+    
+}
+.active h4{
+    color: white;
+}
+
+.carousel{
+    height: 60vh;
+
+}
+.corimage{
+    height: 100px;
+    width: 100px;
+    border: 5px solid white;
+    /* opacity: 0.5; */
+    border-radius: 100%;
+    
+}
+.corimage img{
+    border-radius: 100%;
+}
+.new{
+    /* height: 400px;x */
+}
+.new img:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+    background-color: gray;
+    background-blend-mode: multiply;
+
+
+}
